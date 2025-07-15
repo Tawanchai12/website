@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesty-Core | ร้านสคิป FiveM ที่ดีที่สุด</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-gradient"></div>
+    <div class="noise-overlay"></div>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon"></div>
+                <span>Jesty-Core</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">หน้าแรก</a>
+                <a href="#features" class="nav-link">คุณสมบัติ</a>
+                <a href="#team" class="nav-link">ทีมงาน</a>
+                <a href="#contact" class="nav-link">ติดต่อ</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <div class="toggle-icon"></div>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">ร้านสคิป FiveM ที่ดีที่สุด</span>
+                    <div class="badge-shine"></div>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-main">Jesty-Core</span>
+                    <span class="title-sub">Premium FiveM Scripts</span>
+                </h1>
+                
+                <p class="hero-description">
+                    พบกับสคิปคุณภาพสูงสำหรับเซิร์ฟเวอร์ FiveM ของคุณ
+                    พร้อมการสนับสนุนภาษาไทยและอัพเดทต่อเนื่อง
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="https://discord.gg/hs5aKZxWWz" class="btn-primary" target="_blank">
+                        <span class="btn-icon">💬</span>
+                        <span>เข้าร่วม Discord</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <button class="btn-secondary" id="watchDemo">
+                        <span class="btn-icon">▶️</span>
+                        <span>ดูตัวอย่าง</span>
+                    </button>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="500">0</div>
+                        <div class="stat-label">ลูกค้าพึงพอใจ</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">สคิปคุณภาพ</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">ชั่วโมงซัพพอร์ต</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <div class="card-icon">🛠️</div>
+                        <div class="card-title">Custom Scripts</div>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-title">High Performance</div>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <div class="card-icon">🔧</div>
+                        <div class="card-title">24/7 Support</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2 class="section-title">คุณสมบัติเด่น</h2>
+                <p class="section-subtitle">ทำไมต้องเลือก Jesty-Core</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🎯</span>
+                    </div>
+                    <h3>คุณภาพสูง</h3>
+                    <p>สคิปทุกตัวผ่านการทดสอบอย่างเข้มงวด พร้อมการ optimize ประสิทธิภาพสูงสุด</p>
+                    <div class="feature-badge">Premium</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🔄</span>
+                    </div>
+                    <h3>อัพเดทต่อเนื่อง</h3>
+                    <p>รับการอัพเดทและแก้ไขบั๊กอย่างสม่ำเสมอ พร้อมฟีเจอร์ใหม่ๆ ตลอดเวลา</p>
+                    <div class="feature-badge">Live Updates</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🇹🇭</span>
+                    </div>
+                    <h3>ซัพพอร์ตภาษาไทย</h3>
+                    <p>บริการสนับสนุนภาษาไทย 24/7 พร้อมทีมงานมืออาชีพที่เข้าใจความต้องการ</p>
+                    <div class="feature-badge">24/7</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🛡️</span>
+                    </div>
+                    <h3>ความปลอดภัย</h3>
+                    <p>สคิปทุกตัวปลอดภัย ไม่มี backdoor หรือ malware ผ่านการสแกนอย่างละเอียด</p>
+                    <div class="feature-badge">Secure</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>⚡</span>
+                    </div>
+                    <h3>ประสิทธิภาพสูง</h3>
+                    <p>สคิปที่ได้รับการ optimize แล้ว ใช้ทรัพยากรน้อย ทำงานเร็วและมีเสถียรภาพ</p>
+                    <div class="feature-badge">Optimized</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🎨</span>
+                    </div>
+                    <h3>Customizable</h3>
+                    <p>ปรับแต่งได้ตามความต้องการ พร้อมเอกสารการใช้งานที่ครบถ้วนและชัดเจน</p>
+                    <div class="feature-badge">Flexible</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team">
+            <div class="section-header">
+                <h2 class="section-title">ทีมงาน</h2>
+                <p class="section-subtitle">ผู้อยู่เบื้องหลังความสำเร็จ</p>
+            </div>
+            
+            <div class="team-container">
+                <div class="team-card">
+                    <div class="member-image">
+                        <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source" alt="Jesty">
+                        <div class="member-status online"></div>
+                    </div>
+                    
+                    <div class="member-info">
+                        <h3 class="member-name">Jesty</h3>
+                        <p class="member-role">Developer & Owner</p>
+                        <p class="member-description">
+                            ถนัดภาษาไทย
+                        </p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">Lua</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">FiveM</span>
+                        </div>
+                        
+                        <div class="member-contact">
+                            <button class="contact-btn discord">
+                                <span>Discord</span>
+                            </button>
+                            <button class="contact-btn email">
+                                <span>Email</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2 class="section-title">ติดต่อเรา</h2>
+                <p class="section-subtitle">พร้อมให้คำปรึกษาและบริการตลอด 24 ชั่วโมง</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card main-contact">
+                    <div class="contact-icon">
+                        <div class="icon-bg discord-bg"></div>
+                        <span>💬</span>
+                    </div>
+                    <h3>Discord Server</h3>
+                    <p>เข้าร่วมชุมชนและสั่งซื้อสคิป พูดคุยกับทีมงานโดยตรง</p>
+                    <a href="https://discord.gg/hs5aKZxWWz" class="contact-link" target="_blank">
+                        <span>https://discord.gg/hs5aKZxWWz</span>
+                        <div class="link-arrow">→</div>
+                    </a>
+                    <div class="contact-stats">
+                        <div class="stat">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">สมาชิก</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">ออนไลน์</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">⏰</div>
+                        <h4>เวลาทำการ</h4>
+                        <p>24/7 ตลอดเวลา</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">🌐</div>
+                        <h4>ภาษาที่รองรับ</h4>
+                        <p>ไทย, English</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">⚡</div>
+                        <h4>ตอบกลับเฉลี่ย</h4>
+                        <p>< 30 นาที</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-icon"></div>
+                <span>Jesty-Core</span>
+            </div>
+            <p>&copy; 2025 Jesty-Core. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-icon"></div>
+                <span>Jesty-Core</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Demo Modal -->
+    <div class="modal-overlay" id="demoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>ตัวอย่างสคิป</h3>
+                <button class="modal-close" id="modalClose">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="demo-video">
+                    <div class="video-placeholder">
+                        <div class="play-icon">▶️</div>
+                        <p>Video Demo Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
